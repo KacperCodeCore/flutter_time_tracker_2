@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:win32/win32.dart';
 import 'package:window_manager/window_manager.dart';
 
-void main() async {
-  const double miniWidth = 100;
-  const double miniHeight = 30;
+void main() {
+  const double miniWidth = 120;
+  const double miniHeight = 30; 
 
   WidgetsFlutterBinding.ensureInitialized();
   WindowManager.instance.ensureInitialized();
